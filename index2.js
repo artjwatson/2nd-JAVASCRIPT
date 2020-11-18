@@ -8,3 +8,9 @@
 
 // let x = 125 * 220;
 // console.log(x);
+
+// ARRAY
+let cars = [];
+
+cars.push("Ford");
+prompt(cars);
