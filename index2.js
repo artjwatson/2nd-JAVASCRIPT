@@ -10,7 +10,20 @@
 // console.log(x);
 
 // ARRAY
-let cars = [];
+// let cars = [];
 
-cars.push("Ford");
-prompt(cars);
+// cars.push("Ford");
+// prompt(cars);
+
+// ARRAY ITERATION
+
+let toDo = [];
+for (let i = 0; i < toDo.length; i++) [console.log(toDo[i])];
+
+for (let i = 0; i < toDo.length; i++) {
+  prompt(toDo[i]);
+}
+
+toDo.forEach((toDo) => {
+  prompt(toDo);
+});
