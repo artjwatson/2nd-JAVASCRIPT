@@ -18,12 +18,32 @@
 // ARRAY ITERATION
 
 let toDo = [];
-for (let i = 0; i < toDo.length; i++) [console.log(toDo[i])];
 
-for (let i = 0; i < toDo.length; i++) {
-  prompt(toDo[i]);
+prompt(toDo);
+toDo.push();
+
+// for (let i = 0; i < toDo.length; i++) {
+// prompt(toDo[i]);
+// toDo.push();
+// wal
+
+// [console.log(toDo[i])];
+
+// for (let i = 0; i < toDo.length; i++) {
+//   prompt(toDo[i]);
+// }
+
+toDo.forEach((toDos) => {
+  prompt(toDos);
+});
+
+// While Loop
+
+// let toDo = 0;
+
+while (toDo <= 10) {
+  prompt(toDo);
+  toDo++;
 }
 
-toDo.forEach((toDo) => {
-  prompt(toDo);
-});
+console.log(toDo);
