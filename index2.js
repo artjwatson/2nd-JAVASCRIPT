@@ -9,41 +9,37 @@
 // let x = 125 * 220;
 // console.log(x);
 
-// ARRAY
-// let cars = [];
+// DAILY GRIND (ARRAY & ITERATION)
+let dailyGrind = [];
 
-// cars.push("Ford");
-// prompt(cars);
+console.log(dailyGrind);
 
-// ARRAY ITERATION
+let Grind = prompt("What Do You Do All Day?");
+dailyGrind.push(Grind);
 
-let toDo = [];
+console.log(dailyGrind);
 
-prompt(toDo);
-toDo.push();
-
-// for (let i = 0; i < toDo.length; i++) {
-// prompt(toDo[i]);
+// for (let i = 0; i < dailyGrind.length; i++) {
+// prompt(dailyGrind[i]);
 // toDo.push();
-// wal
 
-// [console.log(toDo[i])];
+// [console.log(dailyGrind[i])];
 
-// for (let i = 0; i < toDo.length; i++) {
-//   prompt(toDo[i]);
+// for (let i = 0; i < dailyGrind.length; i++) {
+//   prompt(dailyGrind[i]);
 // }
 
-toDo.forEach((toDos) => {
-  prompt(toDos);
-});
+// dailyGrind.forEach((daily) => {
+//   prompt(daily);
+// });
 
-// While Loop
+// WHILE LOOP
 
-// let toDo = 0;
+let dailyGrind = 0;
 
-while (toDo <= 10) {
-  prompt(toDo);
-  toDo++;
+while (dailyGrind <= 10) {
+  prompt(dailyGrind);
+  dailyGrind++;
 }
 
-console.log(toDo);
+console.log(dailyGrind);
